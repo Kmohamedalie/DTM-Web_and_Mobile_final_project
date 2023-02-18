@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>History of the Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="icon" href="favicon.ico" />
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="float.css">
+
+<body >
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#mission" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Mission</a>
+    <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/466752" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" target="_blank">Degree course</a>
+     <div class="subnav">
+    <button class="subnavbtn">Authors<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://www.linkedin.com/in/leonardo-ghiani-b2398b1a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BD%2B4iH8DbRT%2BIliA8%2FGjNXA%3D%3D" style="margin-left: 10px; margin-top:10px; margin-bottom:10px;"> Leonardo Ghiani </a>
+      <a href="#" style="margin-left: 10px; margin-top:10px; margin-bottom:10px;"> Wanda Handal </a>
+      <a href="#link3" style="margin-left: 10px; margin-top:10px; margin-bottom:10px;"> Mohamed Alie Kamara </a>
+    </div>
+  </div>
+   
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#mission" class="w3-bar-item w3-button w3-padding-large">Mission</a>
+    <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/466752" class="w3-bar-item w3-button w3-padding-large" target="_blank">Degree course</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo" id="top">HELLO THERE!</h1>
+  <p class="w3-xlarge">On this page you will learn about the World Wide Web history. Ready? Click the button below to open the summary, and use the bar menu to find more about the aim of this page, the degree course and the author behind it all.
+  </p>
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#ch1">The origins of the World Wide Web</a>
+    <a href="#ch2">The 1st War of browsers</a>
+    <a href="#ch3">The Internet Explorer era</a>
+    <a href="#ch4">The 2nd War of browsers</a>
+    <a href="#ch5">The browsers today</a>
+  </div>
+</div>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="openNav()">Get started</button>
+</header>
+
+<!-- First Grid: ORIGINS -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 id="ch1"><br>The origins of the World Wide Web (1989-1994)</h1>
+      <h5 class="w3-padding-32" style="font-size:140%">The World Wide Web (a.k.a. the most famous triplet of "Ws")
+         was born in 1989 from <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank"> Tim Berners-Lee</a> and <a href="https://en.wikipedia.org/wiki/Robert_Cailliau" target="_blank"> Robert Cailliau</a>'s minds, in Geneva, Switzerland.</h5>
+
+      <p class="w3-text-grey" style="font-size:120%">It all started when the two CERN scientists designed a system for sharing and distributing
+        scientific papers; they based their idea on the use of HTML and SGML. Then, in 1991, they presented the very first
+        "WWW" prototype, which unfortunately was not successful. On August 6th, <a href="http://info.cern.ch" target="_blank"> this one</a> was the first webpage ever. 
+      </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <iframe
+       style="width:90%; margin-top:30%"
+          class="zoom"
+          src="https://www.youtube.com/embed/k0gvAyCubGQ"
+          allowfullscreen
+        >
+        </iframe>
+      </img>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: 1st WAR -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img class="zoom" src="https://miro.medium.com/max/1200/1*bdpyGbH7UGptT81Poz3OLQ.png" style="width:90%; margin-top:30%; margin-bottom:20%"></img>
+    </div>
+
+    <div class="w3-twothird">
+      <h1 id="ch2"><br>The first War of browsers (1995-1999)</h1>
+      <h5 class="w3-padding-32" style="font-size:140%">The First War of browsers was between Netscape and Microsoft.</h5>
+
+      <p class="w3-text-grey" style="font-size:120%" onmouseover="PlaySound( 'mySound') " onmouseout="StopSound( 'mySound') ">It all started when  they both introduced more and more updates and improvements; the idea was to affect users’ browser choice
+      The «winner» of the first war of browser has been Microsoft, which included its browser Internet
+      Explorer 3, within the Windows 95 operating system.
+      Hence the users found out an already installed browser and most of them started using it and they did not change it.</p>
+      <audio id="mySound" src="battle.mp3" />    
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: IE ERA -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 id="ch3"><br>The Internet Explorer era (1999-2004)</h1>
+      <h5 class="w3-padding-32" style="font-size:140%">Without an actual competitor.</h5>
+
+      <p class="w3-text-grey" style="font-size:120%">Microsoft Internet Explorer 6.0 has been released in September 2001:it was  fast, standard-compliant, well-supported. From 2006 and 2012, only 4
+        versions have been released, similar to that version.
+        the IE development did not introduce any significant innovation.
+      A new war of browsers started, where IE totally failed, loosing its domain, programmers kept it installed  just to support tests while designing and developing their web sites.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img class="zoom" src="https://cdn.picpng.com/earth/internet-global-earth-65694.png" style="width:90%; margin-top:30%">
+      </img>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Grid: 2nd WAR -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img class="zoom" src="https://www.trinustech.com/wp-content/uploads/2019/04/11.jpg" style="width:90%; margin-top:30%; margin-bottom:20%"></img>
+    </div>
+
+    <div class="w3-twothird">
+      <h1 id="ch4"><br>The second War of browsers (2004-2008)</h1>
+      <h5 class="w3-padding-32" style="font-size:140%">MOZ-FF vs MSIE vs Others</h5>
+
+      <p class="w3-text-grey" style="font-size:120%" onmouseover="PlaySound( 'MySound') " onmouseout="StopSound( 'MySound') ">since 2004 a new stripped-down browser-only version of the full suite, which included new features such as a separate search bar (which had previously only appeared in the Opera browser), had been created. The browser-only version was named Firefox. This browser became the focus of the Mozilla Foundation's development efforts and Mozilla Firefox 1.0 was released on November 9, 2004.
+      In April 2004, the Mozilla Foundation and <a href="https://en.wikipedia.org/wiki/Opera_(company)" class="mw-redirect" title="Opera Software">Opera Software</a> joined efforts to develop new open-technology standards which add more capability while remaining backward-compatible with existing technologies. The result of this collaboration was the <a href="https://en.wikipedia.org/wiki/WHATWG" title="WHATWG">WHATWG</a>, a working group devoted to the fast creation of new standard definitions that would be submitted to the <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">W3C</a> for approval. 
+      Microsoft rejected to join the WHAT working group in 2004, following decisions made by the other companies, instead of leading them. Also, Apple has got a more dominant position, with more constructive actions, together with Firefox and Opera, refocusing discussions on the browsers
+      End of second war, Chrome won! 
+      By 2017 usage shares of Opera, Firefox and Internet Explorer fell well below 5% each, while Google Chrome had expanded to over <b>60%</b> worldwide. In May 2017, <a href="https://en.wikipedia.org/wiki/Andreas_Gal" title="Andreas Gal">Andreas Gal</a>, former Mozilla Chief technology officer, publicly stated that <b>Google Chrome won the Second Browser War</b>.</p>
+      <audio id="MySound" src="tension.mp3" />     
+    </div>
+  </div>
+</div>
+
+<!-- Fifth Grid: TODAY -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 id="ch5"><br>The browsers today</h1>
+      <h5 class="w3-padding-32" style="font-size:140%">Browser diffusion.</h5>
+
+      <p class="w3-text-grey" style="font-size:120%">In 2008, Google released Chrome a couple of years later it became the most diffused browser,overcoming IE The diffusion of the browser installed on Tablets and smartphones came into the scene.
+        In June 2021, Microsoft permanently discontinued Internet Explorer, in favor of Microsoft Edge as their sole browser.
+        By the end of 2021 <a href="https://en.wikipedia.org/wiki/Google_Chrome" title="Google Chrome">Chrome</a> has maintained its first position by increasing its percentage of usage till around 65% .. 70%. <a href="https://en.wikipedia.org/wiki/Safari_(web_browser)" title="Safari (web browser)">Safari</a> has gained the second position (9% to 20%) whereas <a href="https://en.wikipedia.org/wiki/Firefox" title="Firefox">Firefox</a> has dropped to fourth position (around 8%) in world wide browser market of desktop computers (tablet and mobile devices have other browser versions and statistics).</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img class="zoom" src="https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/Browswer_Pixabay.png" style="width:90%; margin-top:30%">
+      </img>
+    </div>
+  </div>
+</div>
+
+<!-- Mission Grid -->
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 id="mission" class="w3-margin w3-xlarge"><br><br>The goal of this website is to deliver free information about a selected topic of the "web and mobile systems" course. Created for academic purposes only.<br><br>
+    </h1>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a href="https://www.facebook.com/pages/category/College---university/2-Year-Master-Degree-in-Digital-Transformation-Management-102574278553632/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/dtm_unibo/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/school/unibo/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+ </div>
+ <p>&#128187; Created by Unibo students &#128187;</p>
+</footer>
+
+<!--Javascript link code section-->
+<script src="javascript.js"></script>
+
+<!--Floating arrow button
+		<a href="#top" class="float">
+			<i class="fa fa-arrow my-float">Top</i>
+			</a>-->
+</body>
+</html>
