@@ -55,7 +55,6 @@
 </div>
   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="openNav()">Get started</button>
 </header>
- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!-- First Grid: ORIGINS -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
@@ -181,32 +180,5 @@
  <p>&#128187; Created by Unibo students &#128187;</p>
 </footer>
 
-<!--Javascript link code section-->
-  <script>
-        // Get the button
-        let mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-          scrollFunction();
-        };
-
-        function scrollFunction() {
-          if (
-            document.body.scrollTop > 20 ||
-            document.documentElement.scrollTop > 20
-          ) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-      </script>
 </body>
 </html>
